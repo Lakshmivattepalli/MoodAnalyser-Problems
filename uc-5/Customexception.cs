@@ -1,8 +1,24 @@
-﻿using System;
+﻿
+using System;
+using System.Collections.Generic;
+using System.Text;
 
-public class Class1
+namespace Mood_Analyzer_Program
 {
-	public Class1()
-	{
-	}
+    public class CustomException : Exception
+    {
+        public ExceptionType type;
+
+        public enum ExceptionType
+        {
+            Null_Type_Exception,
+            Empty_Type_Exception,
+            NO_SUCH_CLASS,
+            NO_SUCH_METHOD
+        }
+        public CustomException(ExceptionType type, string message) : base(message)
+        {
+            this.type = type;
+        }
+    }
 }

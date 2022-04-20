@@ -7,6 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uc-5", "uc-5.csproj", "{193
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{256E9DBF-8D01-4324-98A6-8654625E6D67}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DD756FAA-37CF-40E2-80A7-4DE1771A4051}"
+	ProjectSection(SolutionItems) = preProject
+		Customexception.cs = Customexception.cs
+		mooadanalyserfactory.cs = mooadanalyserfactory.cs
+		moodanalyser.cs = moodanalyser.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
