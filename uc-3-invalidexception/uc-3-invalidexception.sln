@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uc-3-invalidexception", "uc-3-invalidexception.csproj", "{5BCAFFFC-FE5B-4683-82FB-933E5E47121F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D2E07753-0ED6-447B-B1BE-DAD8F09B9D2C}"
+	ProjectSection(SolutionItems) = preProject
+		customexception.cs = customexception.cs
+		mood analyser.cs = mood analyser.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testmood", "testmood\testmood.csproj", "{1AAF91A1-CC81-453A-9716-52D698CF3F37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BCAFFFC-FE5B-4683-82FB-933E5E47121F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BCAFFFC-FE5B-4683-82FB-933E5E47121F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BCAFFFC-FE5B-4683-82FB-933E5E47121F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BCAFFFC-FE5B-4683-82FB-933E5E47121F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AAF91A1-CC81-453A-9716-52D698CF3F37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AAF91A1-CC81-453A-9716-52D698CF3F37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AAF91A1-CC81-453A-9716-52D698CF3F37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AAF91A1-CC81-453A-9716-52D698CF3F37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A38A7D24-627E-4ECA-A377-31B5B6C66D39}
+	EndGlobalSection
+EndGlobal
